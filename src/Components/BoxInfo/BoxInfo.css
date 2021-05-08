@@ -1,0 +1,22 @@
+.boxInfo {
+  width: 80%;
+  margin-top: 1.5em;
+}
+
+.boxInfo__selected {
+  border-top: 10px solid #334a5c !important;
+}
+
+/*------------------------------Tablet--------------------------------*/
+@media screen and (min-width: 768px) {
+  .boxInfo {
+    width: 50%;
+  }
+}
+
+/*------------------------------Desktop--------------------------------*/
+@media screen and (min-width: 1023px) {
+  .boxInfo {
+    width: 30%;
+  }
+}
