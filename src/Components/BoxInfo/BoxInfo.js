@@ -11,8 +11,8 @@ function BoxInfo({ title, todayCases, total, active, ...props }) {
     >
       <CardContent>
         <Typography variant="h4">{title}</Typography>
-        <Typography variant="subtitle1">+{todayCases}</Typography>
-        <Typography variant="subtitle2">+{total}</Typography>
+        <Typography variant="subtitle1">Today +{todayCases}</Typography>
+        <Typography variant="subtitle2">Total +{total}</Typography>
       </CardContent>
     </Card>
   );
